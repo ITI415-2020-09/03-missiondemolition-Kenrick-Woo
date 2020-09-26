@@ -35,9 +35,9 @@ public class Cloud : MonoBehaviour
             spTrans.localPosition = offset;
 
             Vector3 scale = Vector3.one;
-            scale.x = Random.range(sphereScaleRangeX.x, sphereScaleRangeX.y);
-            scale.y = Random.range(sphereScaleRangeY.x, sphereScaleRangeY.y);
-            scale.z = Random.range(sphereScaleRangeZ.x, sphereScaleRangeZ.y);
+            scale.x = Random.Range(sphereScaleRangeX.x, sphereScaleRangeX.y);
+            scale.y = Random.Range(sphereScaleRangeY.x, sphereScaleRangeY.y);
+            scale.z = Random.Range(sphereScaleRangeZ.x, sphereScaleRangeZ.y);
 
             scale.y *= 1 - (Mathf.Abs(offset.x) / sphereOffsetScale.x);
             scale.y = Mathf.Max(scale.y, scaleYMin);
@@ -48,10 +48,9 @@ public class Cloud : MonoBehaviour
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Restart();
-            }
+            //if (Input.GetKeyDown(KeyCode.Space)) {
+                //Restart();
+            //}
         }
 
         void Restart()

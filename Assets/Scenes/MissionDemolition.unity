@@ -870,6 +870,23 @@ MonoBehaviour:
   launchPos: {x: 0, y: 0, z: 0}
   projectile: {fileID: 0}
   aimingMode: 0
+--- !u!1 &1120381047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5693072887628533761, guid: a851dafa283dcea4fa1514df0f6fc970, type: 3}
+  m_PrefabInstance: {fileID: 8326399181031813653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1120381048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120381047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d80f2cbaaa51ab40b87baa19fde4121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1121842444
 GameObject:
   m_ObjectHideFlags: 0
